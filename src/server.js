@@ -1,6 +1,7 @@
 const createApp = require('./app');
 const config = require('./config/config');
 
+// creating the app
 const app = createApp();
 
 app.listen(config.port, () => {
